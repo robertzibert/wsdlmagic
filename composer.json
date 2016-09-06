@@ -1,0 +1,19 @@
+{
+    "name": "robert/wsdl-connector",
+    "description": "Wsdl Client write in a nice and a simple way",
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Zibert",
+            "email": "robert_zibert@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "robertzibert\\WsdlConnector\\": "src"
+        }
+    }
+}
